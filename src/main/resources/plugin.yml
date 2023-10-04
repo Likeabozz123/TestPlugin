@@ -1,0 +1,12 @@
+name: TestPlugin
+version: '${project.version}'
+main: xyz.gamars.TestPlugin
+api-version: 1.19
+commands:
+  testcommand:
+    description: Test Command
+    usage: /testcommand
+    aliases: tc
+  circle:
+    description: circle command
+    usage: /circle
